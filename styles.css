@@ -1,0 +1,107 @@
+html {
+    background-color: white;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 0 20px 0 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.right-header {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.right-header h1 {
+    color: rgb(226, 33, 139);
+    margin-bottom: 0;
+}
+.right-header p {
+    margin-top: 0;
+}
+nav {
+    border-top: 1px solid rgb(226, 33, 139);
+    border-bottom: 1px solid rgb(90, 38, 66);
+    margin-bottom: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 2px 0 2px 0;
+}
+nav li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(34, 11, 15);
+}
+section {
+    border-bottom: 1px solid rgb(236, 59, 163);
+    margin-bottom: 5px;
+}
+article img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px; 
+}
+article h2 {
+    margin-top: 5px;
+    color: rgb(207, 12, 12);
+}
+article a {
+    color: rgb(240, 85, 214);
+}
+.posted-date {
+    color: rgb(250, 66, 143);
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after{
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+footer {
+    border-top: 1px solid rgb(204, 18, 49);
+}
+footer p {
+    text-align: center;
+   
+    padding: 20px 0 0 0;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    margin: 0 5px 0 5px;
+    list-style-type: none;
+}
+.group {
+    margin-bottom: 50px;
+} 
